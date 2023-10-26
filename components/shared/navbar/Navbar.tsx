@@ -1,7 +1,7 @@
-import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
-import { SignedIn, UserButton } from '@clerk/nextjs'
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { SignedIn, UserButton } from '@clerk/nextjs';
 
 const Navbar = () => {
   return (
@@ -31,11 +31,11 @@ const Navbar = () => {
                 colorPrimary: '#ff7000',
               },
             }}
-         />
+          />
         </SignedIn>
       </div>
     </nav>
   );
-}
+};
 
-export default Navbar
+export default Navbar;
